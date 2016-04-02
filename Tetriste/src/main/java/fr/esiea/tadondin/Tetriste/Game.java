@@ -3,7 +3,7 @@ package fr.esiea.tadondin.Tetriste;
 public class Game {
 
 	private boolean gameEnded=false;
-	
+	//test
 public Game(Coordinate C){
 
 	
