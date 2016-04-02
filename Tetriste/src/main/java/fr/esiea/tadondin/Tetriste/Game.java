@@ -46,22 +46,22 @@ public void rotateCurrentPieceClockwise(){
 public boolean nextPiece(){
 	
 	
-	return nextPiece() ;
+	return true;
 }
 
 public String toString(){
 	
-	return toString();
+	return null;
 }
 
 public boolean isCurrentPieceFixed(){
 	
-	return isCurrentPieceFixed();
+	return true;
 }
 
 public boolean isGameEnded(){
 	
-	return isGameEnded();
+	return true;
 }
 
 
