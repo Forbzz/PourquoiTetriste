@@ -7,7 +7,7 @@ Le tetris pour tous les tristes
 pour contacter le prof: "à remplir"
 
 #Comment importer Github sur eclipse
-1) Copier le lien https://github.com/Forbzz/GLPOO_ESIEA_1415_Eternity_FDT.git
+1) Copier le lien https://github.com/Forbzz/PourquoiTetriste.git
 2) Sur eclipse aller sur l'onglet window 
 3) Show view 
 4) Other 
