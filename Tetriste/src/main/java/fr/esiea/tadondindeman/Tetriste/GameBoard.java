@@ -1,17 +1,28 @@
 package fr.esiea.tadondindeman.Tetriste;
 
 import fr.esiea.tadondindeman.customInterfaces.Printable;
+import fr.esiea.tadondindeman.PiecesRelated.Piece;
+import fr.esiea.tadondindeman.PiecesRelated.IPiece;
+import fr.esiea.tadondindeman.PiecesRelated.TPiece;
+import fr.esiea.tadondindeman.PiecesRelated.LPiece;
+import fr.esiea.tadondindeman.PiecesRelated.OPiece;
+import fr.esiea.tadondindeman.PiecesRelated.SPiece;
+import fr.esiea.tadondindeman.PiecesRelated.ZPiece;
 
-/**
- * Created by julien on 01/04/16.
- */
+import java.util.ArrayList;
+import java.util.Arrays;
+
+
 public class GameBoard implements Printable {
 
     public int[][] grid;
     private boolean[] fullLines; // true if line is full, array index is the line number
+    private Piece pieceActuelle
     // Arrays.fill()
 
-    public GameBoard(){
+    public GameBoard(int x, int y){
+        this.grid = new int[25][12];
+        Arrays.fill(fullLines, true);
 
     }
 

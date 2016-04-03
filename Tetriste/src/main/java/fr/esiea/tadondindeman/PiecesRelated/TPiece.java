@@ -3,7 +3,7 @@ package fr.esiea.tadondindeman.PiecesRelated;
 /**
  * Created by julien on 01/04/16.
  */
-class TPiece extends Piece {
+public class TPiece extends Piece {
 
     private int[][] bluePrintTop = new int[][]{{0,5,0},{5,5,5},{0,0,0}};
     private int[][] bluePrintRight = new int[][]{{0,5,0},{0,5,5},{0,5,0}};

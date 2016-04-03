@@ -5,60 +5,43 @@ package fr.esiea.tadondindeman.Tetriste;
  */
 import fr.esiea.tadondindeman.PiecesRelated.LPiece;
 
+import java.util.Scanner;
+
 
 public class Tetriste {
 
     public static void main(String[] args){
-
+        /*
         System.out.println("Hello World !");
         System.out.println("Yoda!");
 
         LPiece yo = new LPiece(4,5);
         System.out.println("position is x = " + yo.getxPos() + " Y = " + yo.getyPos());
+    */
+
+        System.out.println("Bienvenue dans notre Tetris\n");
+        System.out.println("Que voulez vous faire ?");
+        System.out.println("1: Lancer le jeu");
+        System.out.print("2: voir les meilleures scores");
+        System.out.println("3: Quitter Tetris");
 
 
-        /**************************************************/
-        /**************************************************/
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
 
-            /*Menu choices = new Menu();
-
-              choices.showChoices();
-
-              Scanner reader = new Scanner(System.in);  // Reading from System.in
-
-              do{
-                System.out.println("Enter a number: ");
-                int n = reader.nextInt(); // Scans the next token of the input as an int.
-
-                if(n == 1){
-                    Score scores = new Score();
-                    scores.showTopScores();
-                }
-
-                else if(n == 2){
-
-                    do{
-                        System.out.println("Enter a difficulty (1 to 3): ");
-                        int level = reader.nextInt();
-                    }while(level < 0 && level > 3);
-
-                    System.out.println("Enter your name: ");
-                    String player=(scanner.next());
-
-                    if(!player || player.length() > 10)
-                        throw new IllegalArgumentException("name lenght must be >=1 and <=10");
-
-                    Game jeu = new Game(level,player)
+        do{
+            switch (num) {
+                case 1:
+                    Game jeu = new Game();
                     jeu.runGame();
-                }
+                case 2:
+                    System.out.println("En phase de construction");
+                case 3:
+                    System.exit(0);
+            }
+        }while(num < 0 && num > 3);
 
-                else if(n==3){
 
-               }while(n >0 && n < 6)
-
-               System.exit(0);
-
-            */
 
 
     }

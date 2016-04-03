@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public abstract class Piece {
 
-    protected char blockSymbol;
+    private char blockSymbol;
     private Boolean fixed;
     private String color;
     private int xPos, yPos;
