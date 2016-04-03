@@ -1,8 +1,6 @@
-package fr.esiea.tadondin.Tetriste;
+package fr.esiea.tadondindeman.Tetriste;
 
-import fr.esiea.tadondin.customInterfaces.Printable;
-
-import java.util.List;
+import fr.esiea.tadondindeman.customInterfaces.Printable;
 
 /**
  * Created by julien on 01/04/16.

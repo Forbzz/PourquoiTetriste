@@ -1,4 +1,4 @@
-package fr.esiea.tadondin.Tetriste;
+package fr.esiea.tadondindeman.Tetriste;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

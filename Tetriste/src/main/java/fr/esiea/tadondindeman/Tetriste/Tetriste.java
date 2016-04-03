@@ -1,12 +1,9 @@
-package fr.esiea.tadondin.Tetriste;
+package fr.esiea.tadondindeman.Tetriste;
 
 /**
  * Created by julien on 01/04/16.
  */
-import java.util.Scanner;
-import fr.esiea.tadondin.PiecesRelated.LPiece;
-import fr.esiea.tadondin.PiecesRelated.Piece;
-import java.lang.IllegalArgumentException;
+import fr.esiea.tadondindeman.PiecesRelated.LPiece;
 
 
 public class Tetriste {

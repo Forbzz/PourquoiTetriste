@@ -1,6 +1,4 @@
-package fr.esiea.tadondin.PiecesRelated;
-
-import java.util.Random;
+package fr.esiea.tadondindeman.PiecesRelated;
 
 /**
  * Created by julien on 01/04/16.

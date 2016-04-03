@@ -1,4 +1,4 @@
-package fr.esiea.tadondin.Tetriste;
+package fr.esiea.tadondindeman.Tetriste;
 
 /**
  * Created by julien on 02/04/16.

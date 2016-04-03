@@ -1,4 +1,4 @@
-package fr.esiea.tadondin.PiecesRelated;
+package fr.esiea.tadondindeman.PiecesRelated;
 
 /**
  * Created by julien on 01/04/16.

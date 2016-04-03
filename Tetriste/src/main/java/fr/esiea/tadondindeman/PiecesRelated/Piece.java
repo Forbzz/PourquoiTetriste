@@ -1,8 +1,7 @@
-package fr.esiea.tadondin.PiecesRelated; /**
+package fr.esiea.tadondindeman.PiecesRelated; /**
  * Created by julien on 01/04/16.
  */
 
-import fr.esiea.tadondin.customInterfaces.Printable;
 import java.util.List;
 import java.util.ArrayList;
 
