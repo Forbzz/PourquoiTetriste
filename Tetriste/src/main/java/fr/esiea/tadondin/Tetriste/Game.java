@@ -1,70 +1,37 @@
 package fr.esiea.tadondin.Tetriste;
 
+/**
+ * Created by julien on 02/04/16.
+ */
 public class Game {
-
-	private boolean gameEnded=false;
-	//test
-public Game(Coordinate C){
-
-	
-
-	
-}
-
-protected Gameboard getGameboard(){
-	
-	
-}
-
-public void moveCurrentPieceLeft(){
-	
-	
-	
-}
+    /*
+    private String player
+    private GameBoard grid;
+    private Regle regle;
+    private Score score;
+    private int difficulty; // entre 1 et 3
 
 
-public void moveCurrentPieceRight(){
-	
-	
-}
+    public Game(int lvl){
 
-public void moveCurrentPieceDown(){
-	
-	
-}
+    }
 
-public void rotateCurrentPieceCounterclockwise(){
-	
-	
-}
+    public void showFinalScore(Score score){
+        score.showScore()
+    }
 
-public void rotateCurrentPieceClockwise(){
-	
-	
-}
+    public void runGame(){
+        Gameboard = new Board(int SIZEX, int SIZEY)
+        PieceFactory facto = new PieceFactory(difficulty)
 
-public boolean nextPiece(){
-	
-	
-	return true;
-}
-
-public String toString(){
-	
-	return null;
-}
-
-public boolean isCurrentPieceFixed(){
-	
-	return true;
-}
-
-public boolean isGameEnded(){
-	
-	return true;
-}
+        Gameboard.nexstate();
 
 
+
+    }
+
+
+    */
 
 
 
