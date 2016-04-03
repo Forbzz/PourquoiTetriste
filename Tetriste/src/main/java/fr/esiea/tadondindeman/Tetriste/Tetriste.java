@@ -20,7 +20,7 @@ public class Tetriste {
     */
 
         System.out.println("Bienvenue dans notre Tetris\n");
-        System.out.println("Que voulez vous faire ?");
+        System.out.println("Que voulez vous faire ?\n");
         System.out.println("1: Lancer le jeu");
         System.out.print("2: voir les meilleures scores");
         System.out.println("3: Quitter Tetris");

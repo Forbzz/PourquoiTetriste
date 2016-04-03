@@ -7,10 +7,9 @@ import fr.esiea.tadondindeman.PiecesRelated.PieceFactory;
  */
 public class Game {
 
-    private String player
+    private String player;
     private GameBoard grid;
-    private Regle regle;
-    private Score score;
+    private int score;
     private int difficulty; // entre 1 et 3
 
 
@@ -18,7 +17,7 @@ public class Game {
 
     }
 
-    public void showFinalScore(Score score){
+    private void showFinalScore(int score){
         score.showScore()
     }
 
