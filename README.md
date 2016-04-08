@@ -1,10 +1,7 @@
 #Important : l'avatar à mettre sur Github
 http://faceyourmanga.com
 
-# Tertriste
-Le tetris pour tous les tristes
 
-pour contacter le prof: "à remplir"
 
 #Comment importer Github sur eclipse
 1) Copier le lien https://github.com/Forbzz/PourquoiTetriste.git
@@ -39,7 +36,4 @@ pour contacter le prof: "à remplir"
       ->Rebase > COntinue
 _push to upstream
 
-Créé par:
-TA Nicolas le chocolat
-et 
-DONDIN Max le codeur
+
